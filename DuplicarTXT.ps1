@@ -3,4 +3,8 @@ $Varaux = "Jhonny"
 Get-LocalGroup -Name Administradores        #Esta linea es para sacar los administradores del PC
 
 Write-Host "Se duplico el archivo exitosamen..." $Varaux
-Get-Datecls
+Get-Date
+
+Get-Date -DisplayHint Date
+Write-Host "###########SEPARAR ############"
+#   Get-Process   # Esto agrga los processo para monitorear
